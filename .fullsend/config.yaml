@@ -20,6 +20,13 @@ create_issues:
         repos:
             - fullsend-ai/fullsend
             - fullsend-ai/agents
+status_notifications:
+    comment:
+        start: enabled
+        completion: enabled
+    reaction:
+        start: enabled
+        completion: enabled
 mint_url: https://bt-704d3fbe-bt-mint.fullsend-ai.workers.dev
 inference:
     project: it-gcp-konflux-e2e-fullsend
